@@ -13,6 +13,11 @@ body {
   background: lightsteelblue;
 }
 
+blockquote {
+  padding: 5px 10px;
+  background: lavender;
+}
+
 #mask {
   display: none;
 }
@@ -50,7 +55,9 @@ a:active {
 }
 
 h1,
-h2 {
+h2,
+h3 {
+  text-align: center;
   line-height: 1.2;
   font-family: 'Asap', san-serif;
 }
